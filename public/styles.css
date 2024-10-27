@@ -1,0 +1,136 @@
+body {
+    background-color: #343a40; /* Dark background */
+    color: #f8f9fa; /* Light text color */
+}
+.navbar {
+    background-color: #212529; /* Dark navbar background */
+}
+.navbar-brand, .nav-link {
+    color: #f8f9fa !important; /* Light text color for navbar */
+}
+.container {
+    background-color: #495057; /* Slightly lighter dark background for content area */
+    padding: 20px;
+    border-radius: 8px;
+}
+.btn-primary {
+    background-color: #007bff; /* Customize button color if needed */
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #0056b3;
+}
+/* Modal backdrop */
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker backdrop */
+}
+
+/* Modal dialog */
+.modal-dialog {
+    max-width: 90%; /* Optional: Adjust dialog width */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #495057; /* Dark background for modal content */
+    color: #f8f9fa; /* Light text color */
+    border-radius: 8px;
+}
+
+/* Modal header */
+.modal-header {
+    border-bottom: 1px solid #343a40; /* Darker border for header */
+}
+
+.modal-title {
+    color: #f8f9fa; /* Light title color */
+}
+
+/* Modal footer */
+.modal-footer {
+    border-top: 1px solid #343a40; /* Darker border for footer */
+}
+
+/* Modal close button */
+.close {
+    color: #f8f9fa; /* Light color for close button */
+}
+
+.close:hover {
+    color: #e9ecef; /* Slightly lighter color on hover */
+}
+
+.form-control {
+    background-color: #495057;
+    color: #f8f9fa;
+    border: 1px solid #6c757d;
+}
+
+.form-control:focus {
+    background-color: #495057;
+    color: #f8f9fa;
+    border-color: #6c757d;
+    box-shadow: 0 0 0.5rem rgb(250, 250, 250); /* Increased blur for better visibility */
+}
+
+.form-select {
+    background-color: #495057;
+    color: #f8f9fa;
+    border: 1px solid #6c757d;
+}
+
+.form-select:focus {
+    background-color: #495057;
+    color: #f8f9fa;
+    border-color: #6c757d;
+    box-shadow: 0 0 0.5rem rgb(250, 250, 250); /* Increased blur for better visibility */
+}
+
+.card {
+    width: 100%; /* Full width of the column */
+    height: 370px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.card-clickable {
+    cursor: pointer; /* Show a pointer cursor to indicate it's clickable */
+}
+
+.card-img-top {
+    height: 250px; /* Adjust as needed */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top */
+    padding: 10px; /* Adjust padding if necessary */
+}
+
+.card-text {
+    font-size: 0.9rem;
+    position: relative;
+    margin-top: 0; /* Ensure no extra space above the description */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.card-text .view-description {
+    font-size: 0.8rem;
+    margin-left: 0.2rem; /* Slightly adjust the spacing if needed */
+}
+
+.view-description {
+    display: inline; /* Ensure the text stays on the same line */
+}
